@@ -1,24 +1,29 @@
-# seamod-theme
-## Seamod Theme for conky 
-This is a conky theme and works perfect in Ubuntu 16.04. 
+# README #
 
-### Package Dependencies
+This README would normally document whatever steps are necessary to get your application up and running.
 
- > sudo apt-get install lm-sensors,hd-temp,curl,conky-all,dmidecode
+### What is this repository for? ###
 
-After installing above packages you need to change permission of following packages
+* Quick summary
+* Version
+* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-> sudo chmod u+s /usr/sbin/hddtemp
+### How do I get set up? ###
 
-> sudo chmod u+s /usr/sbin/dmidecode
+* Summary of set up
+* Configuration
+* Dependencies
+* Database configuration
+* How to run tests
+* Deployment instructions
 
-*other wise hdd tempeture & main board info + tempeture won't work
+### Contribution guidelines ###
 
-Now for pretty looks we need to install 2 fonts STYLBCC.ttf and Poky.ttf. 
+* Writing tests
+* Code review
+* Other guidelines
 
-I tweaked Seamod theme contributed by @hrshadhin
+### Who do I talk to? ###
 
-
-
-![Preview](/images/Preview1.png)
-Format: ![Alt Text](url)
+* Repo owner or admin
+* Other community or team contact
