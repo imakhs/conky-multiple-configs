@@ -1,4 +1,11 @@
 #!/bin/bash
-sleep 10
-conky -b -c ~/.config/config/.conkyleftrc &
-conky -b -c ~/.config/config/.conkyrightrc &
+sleep 15
+killall conky
+conky -b -c ~/conkyconfigs/seamod/conky_seamod &
+conky -b -c ~/conkyconfigs/gotham/gotham &
+
+#! sleep 20s
+#! cd "/home/imakhs/conkyconfigs/gotham"
+#! conky -c "/home/imakhs/conkyconfigs/gotham/Gotham" &
+#! cd "/home/imakhs/conkyconfigs/seamod"
+#! conky -c "/home/imakhs/conkyconfigs/seamod/conky_seamod" &
